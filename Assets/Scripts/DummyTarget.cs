@@ -8,13 +8,6 @@ public class DummyTarget : MonoBehaviour
     {
         health -= amount;
         if (health <= 0f)
-        {
-            Die();
-        }
-    }
-
-    void Die()
-    {
-        Destroy(gameObject);
+            Destroy(gameObject);
     }
 }
